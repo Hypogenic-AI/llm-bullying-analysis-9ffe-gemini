@@ -1,0 +1,17 @@
+\section{Introduction}
+\label{sec:intro}
+
+The ability of Large Language Models (LLMs) to generate human-like text has reached a plateau where statistical signatures of machine authorship are increasingly subtle yet detectable. As these models are integrated into critical domains like education, journalism, and social media, the need for robust AI-generated text (\AIGT) detection has never been greater. However, the efficacy of these detectors is fundamentally tied to the "AI-ness" of the generated text---a set of predictable stylistic and statistical features that LLMs default to during standard inference.
+
+There is growing interest in evasion techniques that can "launder" AI text to pass as human. Existing work often relies on complex word-substitution optimizations \cite{lu2023sico} or adversarial feature extraction during generation \cite{zhou2024selfdisguise}. Yet, a simpler and potentially more potent mechanism exists in the conversational nature of modern LLMs: the feedback loop. 
+
+{\bf What is the effect of persistent negative feedback on stylistic evasion?} We hypothesize that "bullying" an LLM through repeated rejection forces it into a more human-like latent space that is otherwise inaccessible via direct, single-shot instructions. While a user might tell a model to "write like a human," the model often interprets this through a lens of rigid rule-following that inadvertently preserves its machine-like uniformity. In contrast, iterative rejection as "too AI-sounding" acts as a repeller, pushing the model away from its high-probability "AI plateau" and toward the more varied, high-perplexity tail of the distribution where human text resides \cite{holtzman2019curious}.
+
+In this work, we investigate the "Bullying Paradox" (see \figref{fig:trend}). We conduct a systematic evaluation using \gptmini and the \roberta detector. We find that while a single-shot instruction to "sound human" only achieves a \singleshotacc "Real" probability, five rounds of iterative rejection (\bullying) drive this score to \roundfiveacc. Critically, we demonstrate that this is not merely a quantitative improvement but a qualitative regime shift: \bullying restores and improves linguistic features like burstiness (from 5.8 to 7.26) that single-shot instructions actually suppress.
+
+Our contributions are as follows:
+\begin{itemize}[leftmargin=*,itemsep=0pt,topsep=0pt]
+    \item We quantify the \bullying Paradox, showing that iterative negative feedback is nearly 2$\times$ more effective than direct positive instruction for detection evasion.
+    \item We identify a linguistic regime shift characterized by higher perplexity and a "burstiness rebound" that distinguishes iterative steering from instruction-following.
+    \item We demonstrate the systemic vulnerability of RoBERTa-based detectors to simple conversational dynamics.
+\end{itemize}

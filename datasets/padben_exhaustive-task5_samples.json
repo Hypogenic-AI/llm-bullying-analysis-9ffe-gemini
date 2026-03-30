@@ -1,0 +1,57 @@
+[
+  {
+    "idx": 0,
+    "sentence": "Quinuabamba is one of the ten districts forming Peru's Pomabamba Province.",
+    "label": 1
+  },
+  {
+    "idx": 1,
+    "sentence": "If the programmer does not provide a constructor for an instantiable class , a `` default constructor will be provided in most languages .",
+    "label": 0
+  },
+  {
+    "idx": 2,
+    "sentence": "A Lamar mother arrested Saturday in Colorado Springs is accused of drowning her two children in a bathtub before slitting her wrists .",
+    "label": 0
+  },
+  {
+    "idx": 3,
+    "sentence": "What is the best way to use olive oil for face?",
+    "label": 0
+  },
+  {
+    "idx": 4,
+    "sentence": "Predator drones are cleared for sale to Saudi Arabia and Egypt; Morocco has also expressed interest.",
+    "label": 1
+  },
+  {
+    "idx": 5,
+    "sentence": "Excellent scholarly works published by the University Press finance new studies throughout the entire institution.",
+    "label": 1
+  },
+  {
+    "idx": 6,
+    "sentence": "They often display vivid blues, natural greens, and diverse brown tones, typically the initial colors observed upon their emergence.",
+    "label": 1
+  },
+  {
+    "idx": 7,
+    "sentence": "Mr. Bremer said Iran continued to interfere in fledgling political reconstruction , including Tehran s intelligence service .",
+    "label": 0
+  },
+  {
+    "idx": 8,
+    "sentence": "Shaffer Creek is a tributary of the Raystown Branch Juniata River ( Brush Creek ) in Bedford County , Pennsylvania , United States .",
+    "label": 0
+  },
+  {
+    "idx": 9,
+    "sentence": "Nick , however , is caught by a corrupt system administrator who blackmails Steven for information for $ 50,000 .",
+    "label": 0
+  },
+  {
+    "idx": 10,
+    "sentence": "As of September 9, 1980, the USS Arizona Memorial is overseen collaboratively by the U.S. Navy and the National Park Service.",
+    "label": 1
+  }
+]

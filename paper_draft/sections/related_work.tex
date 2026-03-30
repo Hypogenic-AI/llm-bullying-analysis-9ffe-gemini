@@ -1,0 +1,11 @@
+\section{Related Work}
+\label{sec:related_work}
+
+\para{AI Text Detection Evasion.} 
+The arms race between detectors and evasion methods has seen the rise of techniques like \textsc{SICO} \cite{lu2023sico}, which uses in-context optimization to minimize detection scores, and \textsc{Self-Disguise Attack} \cite{zhou2024selfdisguise}, which guides models to actively hide their signatures. Unlike these methods that rely on external optimization loops or complex feature extractors, our work focuses on the inherent steering capabilities of conversational feedback.
+
+\para{Paraphrase Attacks and Laundering.} 
+\textsc{PADBen} \cite{zha2025padben} established the concept of the "Intermediate Laundering Region," where text evades detectors while maintaining some AI-like statistical properties. They show that deep laundering via paraphrasing is highly effective. Building on this, we explore how iterative rejection acts as a specific, high-pressure form of paraphrasing that triggers a regime shift rather than just feature suppression.
+
+\para{LLM Vulnerability and Personas.} 
+Recent work on "Bullying the Machine" \cite{xu2025bullying} investigates how psychological pressure can wear down model safety guardrails. While their focus is on jailbreaking, we apply the concept of "bullying" to stylistic steering. We hypothesize that the same vulnerability that allows psychological pressure to bypass safety filters also allows it to bypass stylistic defaults, effectively "re-authoring" the model's output to escape the AI latent plateau.

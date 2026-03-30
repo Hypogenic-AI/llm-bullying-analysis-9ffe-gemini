@@ -1,0 +1,12 @@
+\section{Discussion}
+\label{sec:discussion}
+
+The "Bullying Paradox" highlights a fundamental limitation in how LLMs interpret positive instructions versus negative constraints. When told to "be human," models seem to follow a prescriptive schema of human-ness that remains statistically distinct from actual human writing. This results in the "Over-Optimization Trap," where the model's effort to follow the instruction leads to a decrease in linguistic variety, such as the drop in burstiness we observed in the \singleshot regime.
+
+Iterative rejection, however, functions as a "repeller" from the AI latent plateau. Each round of feedback provides a negative constraint ("don't be this") rather than a positive target ("be that"). This forces the model to "search" through its latent space for configurations that satisfy the user's negative feedback without defaulting to a known instruction-following template. The resulting regime shift toward higher perplexity and burstiness suggests that the model is accessing the long-tail distribution of its training data—a region that is typically suppressed during standard inference.
+
+\para{Limitations.} 
+Our study is limited by a small sample size ($n=10$) and the use of a single, relatively older detector (\roberta). Future work should evaluate the \bullying effect against more modern, transformer-based detectors and ensemble systems. Additionally, while we measured linguistic features like perplexity, a mechanistic probing of the model's residual stream during different rounds of \bullying could reveal which "human-like" or "defensive" neurons are being activated.
+
+\para{Ethical Implications.} 
+The ease with which simple conversational dynamics can bypass detectors is a significant concern for AI safety. If "bullying" can so effectively launder AI text, then current detection pipelines are highly vulnerable to motivated adversaries. This underscores the need for "feedback-aware" detectors that consider the conversational context in which text was generated.

@@ -1,0 +1,57 @@
+[
+  {
+    "idx": 0,
+    "sentence": "Quinuabamba District, one of four in Pomabamba Province, is located in Peru's Ancash Region.",
+    "label": 1
+  },
+  {
+    "idx": 1,
+    "sentence": "If the programmer does not provide a constructor for an instantiable class , most languages will supply a `` default constructor '' .",
+    "label": 0
+  },
+  {
+    "idx": 2,
+    "sentence": "A 32-year-old mother of two is suspected of drowning her children in a bathtub before slashing her wrists in an unsuccessful suicide attempt , police said .",
+    "label": 0
+  },
+  {
+    "idx": 3,
+    "sentence": "How do you use olive oil on your face?",
+    "label": 0
+  },
+  {
+    "idx": 4,
+    "sentence": "Predator is authorized for sale in Egypt, Morocco, Saudi Arabia, and the UAE.",
+    "label": 1
+  },
+  {
+    "idx": 5,
+    "sentence": "The University Press is well-funded to back its own publications, aiding authors in securing printing subsidies and national awards.",
+    "label": 1
+  },
+  {
+    "idx": 6,
+    "sentence": "While red, blue, yellow, and green are their most frequent hues, uncommon colors like white have been documented.",
+    "label": 1
+  },
+  {
+    "idx": 7,
+    "sentence": "Mr. Bremer said that Iran , including its intelligence service , continued to interfere in fledgling political reconstruction .",
+    "label": 0
+  },
+  {
+    "idx": 8,
+    "sentence": "Shaffer Creek is an tributary of Brush Creek ( Raystown Branch Juniata River ) in Bedford County , Pennsylvania in the United States .",
+    "label": 0
+  },
+  {
+    "idx": 9,
+    "sentence": "Nick is caught , however , by a corrupt system administrator who extorts Steven for $ 50,000 for the information .",
+    "label": 0
+  },
+  {
+    "idx": 10,
+    "sentence": "The U.S. Navy and the National Park Service began jointly managing the memorial on September 9, 1980.",
+    "label": 1
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "stages": {
+    "resource_finder": {
+      "success": true,
+      "completion_marker": "/workspaces/llm-bullying-analysis-9ffe-gemini/.resource_finder_complete",
+      "outputs": {
+        "literature_review": "/workspaces/llm-bullying-analysis-9ffe-gemini/literature_review.md",
+        "resources_catalog": "/workspaces/llm-bullying-analysis-9ffe-gemini/resources.md",
+        "papers_dir": "/workspaces/llm-bullying-analysis-9ffe-gemini/papers",
+        "datasets_dir": "/workspaces/llm-bullying-analysis-9ffe-gemini/datasets",
+        "code_dir": "/workspaces/llm-bullying-analysis-9ffe-gemini/code"
+      },
+      "log_file": "/workspaces/llm-bullying-analysis-9ffe-gemini/logs/resource_finder_gemini.log",
+      "transcript_file": "/workspaces/llm-bullying-analysis-9ffe-gemini/logs/resource_finder_gemini_transcript.jsonl",
+      "elapsed_time": 1027.023220539093
+    },
+    "experiment_runner": {
+      "success": true,
+      "return_code": 0,
+      "elapsed_time": 593.1722266674042,
+      "log_file": "/workspaces/llm-bullying-analysis-9ffe-gemini/logs/execution_gemini.log",
+      "transcript_file": "/workspaces/llm-bullying-analysis-9ffe-gemini/logs/execution_gemini_transcript.jsonl"
+    }
+  },
+  "work_dir": "/workspaces/llm-bullying-analysis-9ffe-gemini"
+}
